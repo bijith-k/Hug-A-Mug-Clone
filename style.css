@@ -1,0 +1,166 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  background-image: url('images/redbackgnd.png');
+}
+nav{
+  background-color: rgba(0, 0, 0, 0.463);  
+}
+.fixed-nav-bar {
+   position: fixed; 
+   top: 0; 
+   left: 0; 
+   z-index: 1000; 
+   width: 100%;
+    height: 38px;  
+   
+   }
+.navbar-nav {
+  margin-left: auto;
+  cursor: pointer;
+}
+.nav-item{
+  font-size: 12px;
+}
+@media screen and (max-width:768px) {
+  .fixed-nav-bar{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+.carousel-caption h1{
+  font-size: 50px;
+  margin-top: 10px;
+}
+.caption{
+   top: 7%;
+   left: 3%;
+}
+.captionn{
+  top: 7%;
+  left: 3%;
+}
+@media screen and (max-width:768px) {
+  .caption,.captionn{
+width: 125px;
+  }
+}
+@media screen and (max-width:576px) {
+  .caption,.captionn{
+width: 64px;
+  }
+}
+
+.leftside{
+  text-align: right;
+    margin: 31 0 0 0;
+    color: #624a3d;
+}
+.rightside{
+  font-size: 25;
+    font-family: 'playfair_displayregular';
+    
+    color: #30211a;
+}
+.hai{
+  border-left: 1px solid black;
+}
+@media screen and (max-width:768px) {
+   #one{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: left;
+    }
+    
+    .hai{
+      border-left: 0;
+      border-bottom: 1px solid black;
+    }
+    .leftside{
+      text-align: left;}
+      .blackround{
+      margin-left: 0;
+      }
+}
+p{
+  text-align: center;
+  color: white;
+}
+.coffee{
+  text-align: right;
+}
+.head{
+  font-size: 25;
+  font-family: 'playfair_displayregular';
+  margin-right: auto;
+  color: #30211a;
+  padding-left: 4%;
+}
+.just{
+  border-left: 1px solid black;
+}
+#idd{
+  padding-top: 15%;
+}
+@media screen and (max-width:768px) {
+
+   .just{
+     border-left: 0;
+     border-bottom: 1px solid black;
+   }
+  .coffee{
+  text-align: left;
+}.head{
+  padding-left: 0;
+}#idd{
+  padding-top: 5%;
+}
+}
+#social{
+  height: 300px;
+   
+}
+.socialfb{
+  width: 40%;
+  float: right;
+}
+ul,li{
+  display: inline-block;
+  list-style: none;
+}
+ 
+.fbinsta{
+  border: 5px solid rgb(255, 255, 255);
+  padding: 20%;
+}
+@media screen and (max-width: 500px) {
+  .fbinsta{
+    width: 80%;
+    border: 5px solid rgb(255, 255, 255);
+    padding: 5%;
+  }
+   
+}
+table {
+  margin-right: auto;
+  margin-left: auto;
+  
+}
+td {
+  padding: 15px;
+}
+h1{
+  font-size: 25;
+  font-family: 'playfair_displayregular';
+}
+.fbinsta:hover{
+  border-radius: 10px;
+  cursor: pointer;
+}
+#borderr{
+  border-top: 1px dotted black;
+}
